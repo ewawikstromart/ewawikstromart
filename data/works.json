@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "title": "Regnig dag",
+      "image": "/images/verk-01.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": true
+    },
+    {
+      "title": "Röda sjöbodar och båtar",
+      "image": "/images/verk-02.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": true
+    },
+    {
+      "title": "Vinterlandskap",
+      "image": "/images/verk-03.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Blått hus",
+      "image": "/images/verk-04.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Ekor i hamn",
+      "image": "/images/verk-05.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Ekor på klippor",
+      "image": "/images/verk-06.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Gul fiskebåt och vinter i skärgården",
+      "image": "/images/verk-07.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Gårdshus i kvällsol",
+      "image": "/images/verk-08.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Hus i blåskuggor",
+      "image": "/images/verk-09.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Lada i snölandskap",
+      "image": "/images/verk-10.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Linje 1, Spårvagn",
+      "image": "/images/verk-11.jpg",
+      "technique": "Olja",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Magasin och fiskebåtar",
+      "image": "/images/verk-12.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": true
+    },
+    {
+      "title": "Mås på väg bort",
+      "image": "/images/verk-13.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Mås",
+      "image": "/images/verk-14.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Persikofärgat hus",
+      "image": "/images/verk-15.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Röda lador och blå skuggor",
+      "image": "/images/verk-17.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Smögen 45an",
+      "image": "/images/verk-18.jpg",
+      "technique": "Akvarell",
+      "dimensions": "",
+      "year": "",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    }
+  ]
+}

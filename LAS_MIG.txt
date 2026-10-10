@@ -1,0 +1,28 @@
+EWA WIKSTRÖM – WEBBPLATS VERSION 3
+
+Detta är en verklig webbplats med Ewas originalbilder, utan AI-genererade målningar.
+
+VIKTIGT: Admin-inloggning fungerar INTE förrän GitHub-repo och OAuth-inloggning har konfigurerats. Detta är ett förberett administrationsgränssnitt, inte en färdig inloggning.
+
+FÖRHANDSGRANSKA PÅ DIN DATOR
+1. Packa upp ZIP-filen.
+2. Om Python finns installerat: öppna terminal i mappen och kör: python -m http.server 8000
+3. Öppna http://localhost:8000 i webbläsaren.
+OBS: Att dubbelklicka på index.html kan blockera innehållet eftersom sidan läser JSON-filer.
+
+PUBLICERING
+1. Skapa ett GitHub-konto och ett privat repo, t.ex. ewawikstromart.
+2. Ladda upp filerna till repo. Spara inte personliga lösenord i repo.
+3. Anslut GitHub-repot till Cloudflare Pages med utmatningskatalog / och utan byggkommando.
+4. Koppla din registrerade domän via Cloudflare Pages Custom domains och följ DNS-anvisningarna.
+5. Ändra repo i admin/config.yml från BYT-ANVANDARE/ewawikstromart till ditt konto/repo.
+6. Sätt upp GitHub OAuth för Decap CMS med en säker OAuth-tjänst eller proxy. Detta kräver ytterligare konfiguration och eventuella kostnader måste kontrolleras. Utan detta går /admin inte att logga in på.
+7. Testa inloggning, bilduppladdning och publicering innan sidan används skarpt.
+
+INNEHÅLL
+Texter: data/site.json
+Verk: data/works.json
+Originalfoton: images/
+Bilderna har kopierats utan bildbehandling och visas i sina originalproportioner.
+
+OBS: Verkens mått, år och priser har lämnats tomma eftersom dessa uppgifter inte har lämnats.

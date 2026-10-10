@@ -1,0 +1,43 @@
+# Fyll i GitHub-användarnamn och repo innan administrationen fungerar.
+backend:
+  name: github
+  repo: BYT-ANVANDARE/ewawikstromart
+  branch: main
+  # GitHub-inloggning kräver även OAuth-lösning (se README).
+media_folder: images
+public_folder: /images
+locale: sv
+collections:
+  - name: innehall
+    label: Webbplatsens texter
+    files:
+      - name: site
+        label: Texter och utställningar
+        file: data/site.json
+        fields:
+          - {label: Introduktion, name: intro, widget: text}
+          - {label: Om mig, name: about, widget: text}
+          - {label: E-post, name: email, widget: string}
+          - {label: Instagram-länk, name: instagram, widget: string}
+          - {label: Utställningar, name: exhibitions, widget: text}
+  - name: verk
+    label: Målningar
+    files:
+      - name: verklista
+        label: Lägg till och redigera målningar
+        file: data/works.json
+        fields:
+          - label: Verk
+            name: items
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Originalbild, name: image, widget: image}
+              - {label: Teknik, name: technique, widget: select, options: [Akvarell, Olja]}
+              - {label: Mått, name: dimensions, widget: string, required: false}
+              - {label: År, name: year, widget: string, required: false}
+              - {label: Status, name: status, widget: select, options: [Ej angivet, Till salu, Såld, Ej till salu]}
+              - {label: Visa pris, name: show_price, widget: boolean, default: false}
+              - {label: Pris i kronor, name: price, widget: string, required: false}
+              - {label: Visa som huvudbild, name: featured, widget: boolean, default: false}
