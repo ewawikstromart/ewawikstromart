@@ -3,6 +3,7 @@ backend:
   repo: ewawikstromart/ewawikstromart
   branch: main
   base_url: https://sveltia-cms-auth.ewa-wikstrom123.workers.dev
+
 # Inloggning via GitHub kräver OAuth-anslutning, eller tillfällig token-inloggning.
 # Se START_HAR_ADMINISTRATION.txt innan publicering.
 media_folder: images
@@ -23,7 +24,7 @@ collections:
           - { label: Instagram-länk, name: instagram, widget: string }
           - { label: Utställningar (en utställning per rad), name: exhibitions, widget: text, hint: 'Skriv till exempel: 2026 – Utställning, Galleri, Ort' }
   - name: malningar
-    label: Mina målningar
+    label: Befintliga målningar
     files:
       - name: verklista
         label: Lägg till och redigera målningar
@@ -43,3 +44,22 @@ collections:
               - { label: Visa pris, name: show_price, widget: boolean, default: false }
               - { label: Pris i kronor (utan kr), name: price, widget: string, required: false }
               - { label: Visa som stor bild på startsidan, name: featured, widget: boolean, default: false }
+
+  - name: nya_malningar
+    label: Nya målningar
+    label_singular: Målning
+    file: data/new-works.json
+    identifier_field: title
+    summary: '{{title}}'
+    create: true
+    delete: true
+    fields:
+      - { label: Titel, name: title, widget: string }
+      - { label: Bild – välj foto från datorn, name: image, widget: image }
+      - { label: Teknik, name: technique, widget: select, options: [Akvarell, Olja] }
+      - { label: Mått, name: dimensions, widget: string, required: false }
+      - { label: År, name: year, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: ['Ej angivet', 'Till salu', 'Såld', 'Ej till salu'], default: 'Ej angivet' }
+      - { label: Visa pris, name: show_price, widget: boolean, default: false }
+      - { label: Pris i kronor (utan kr), name: price, widget: string, required: false }
+      - { label: Visa som stor bild på startsidan, name: featured, widget: boolean, default: false }
