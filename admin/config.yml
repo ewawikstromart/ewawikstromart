@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ewawikstromart/ewawikstromart
   branch: main
-
+  base_url: https://sveltia-cms-auth.ewa-wikstrom123.workers.dev
 # Inloggning via GitHub kräver OAuth-anslutning, eller tillfällig token-inloggning.
 # Se START_HAR_ADMINISTRATION.txt innan publicering.
 media_folder: images
