@@ -1,0 +1,48 @@
+EWA WIKSTRÖM – VERSION 5: ADMINISTRATION FÖRBEREDD
+===================================================
+
+VIKTIGT: Den här ZIP-filen är ett installationspaket, INTE en färdig fungerande
+inloggning. Din befintliga hemsida på Cloudflare ändras inte av att du laddar ner
+paketet. Publicera inte /admin och förvänta dig att inloggning fungerar utan
+att först göra stegen nedan.
+
+VAD SOM FINNS I PAKETET
+- Version 4:s godkända webbdesign och alla 17 originalmålningar, oförändrade.
+- data/works.json: befintliga målningar och uppgifter.
+- data/site.json: texter, kontakt och utställningar.
+- admin/: svenskspråkigt innehållsformulär med Sveltia CMS.
+
+VAD DU KAN REDIGERA NÄR ALLT ÄR ANSLUTET
+- Lägg till, ta bort och ordna om målningar.
+- Titel, teknik, mått, år, status, pris och huvudbild.
+- Text på startsidan, Om mig, kontakt och utställningar.
+
+DET SOM FORTFARANDE BEHÖVS FÖR ATT PUBLICERA FRÅN ADMIN
+1. Lägg in samma version av webbplatsens filer i GitHub-repositoryt
+   ewawikstromart/ewawikstromart (inte bara på Cloudflare).
+2. Konfigurera säker GitHub-inloggning för Sveltia CMS. Rekommenderat för
+   en icke-teknisk redaktör: en OAuth-autentiserare med en GitHub OAuth-app,
+   exempelvis Sveltia CMS Authenticator på Cloudflare Worker.
+   GitHub-appen "Cloudflare Workers and Pages" som redan installerats
+   ersätter INTE CMS-inloggningen.
+3. Koppla GitHub till automatisk publicering av den befintliga hemsidan,
+   eller bygg en separat publiceringskedja. Den manuellt uppladdade
+   Cloudflare-versionen uppdateras INTE när du redigerar i GitHub.
+4. Testa att redigera en text och lägga till ett verk innan egen domän kopplas.
+
+ALTERNATIV FÖR TEKNISK TESTNING
+Sveltia CMS stöder inloggning med GitHub personal access token för
+tekniskt kunniga användare, men det kräver tokenhantering och är inte
+rekommenderat som Ewas permanenta redigeringsflöde.
+Dela ALDRIG lösenord, OAuth-hemligheter eller tokens i chatten.
+
+KOSTNAD
+Sveltia CMS är kostnadsfritt. Gratis drift kan vara möjlig inom
+Cloudflares fria gränser. Domännamnet betalas separat.
+
+DOKUMENTATION
+https://sveltiacms.app/en/docs/backends/github
+https://github.com/sveltia/sveltia-cms-auth
+
+OBS: Bara originalfoton från det tidigare webbplatspaketet används.
+Ingen bildgenerering eller ommålning har gjorts.
