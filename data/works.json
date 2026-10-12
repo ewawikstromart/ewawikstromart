@@ -186,6 +186,50 @@
       "show_price": false,
       "price": "",
       "featured": false
+    },
+    {
+      "title": "Linje 2, Spårvagn Göteborg",
+      "image": "/images/Linje 2, Spårvagn, Olja, 2026, Ewa Wikström.jpg",
+      "technique": "Olja",
+      "dimensions": "70cm*110cm",
+      "year": "2026",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Linje 1, Redbergsplatsen, Spårvagn Göteborg",
+      "image": "/images/Linje 1 vid Redbergsplatsen, Spårvagn, Olja, 2025, Ewa Wikström.jpeg",
+      "technique": "Olja",
+      "dimensions": "40cm*50cm",
+      "year": "2025",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Bleket Tjörn",
+      "image": "/images/Bleket Tjörn, Akvarell, Ewa Wikström.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "56cm*76cm",
+      "year": "2026",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
+    },
+    {
+      "title": "Frökapslar, Köksträdgården Sundsby Säteri",
+      "image": "/images/Frökapslar, Köksträdgåden Sundsby Säteri, Akvarell Ewa Wikström.jpeg",
+      "technique": "Akvarell",
+      "dimensions": "56cm*76cm",
+      "year": "2026",
+      "status": "Ej angivet",
+      "show_price": false,
+      "price": "",
+      "featured": false
     }
   ]
 }
