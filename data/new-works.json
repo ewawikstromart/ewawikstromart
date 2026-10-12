@@ -20,5 +20,16 @@
     "show_price": false,
     "price": "",
     "featured": false
+  },
+  {
+    "title": "Bleket Tjörn",
+    "image": "/images/Bleket Tjörn, Akvarell, Ewa Wikström.jpeg",
+    "technique": "Akvarell",
+    "dimensions": "56cm*76cm",
+    "year": "2026",
+    "status": "Ej angivet",
+    "show_price": false,
+    "price": "",
+    "featured": false
   }
 ]
